@@ -1,0 +1,48 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "gatsby build",
+        "clean": "rimraf public",
+        "dev": "gatsby develop",
+        "start": "npm run dev"
+    },
+    "dependencies": {
+        "csx": "^10.0.0",
+        "gatsby": "^2.15.28",
+        "gatsby-image": "^2.2.23",
+        "gatsby-plugin-feed": "^2.3.15",
+        "gatsby-plugin-preact": "^3.1.13",
+        "gatsby-plugin-react-helmet": "^3.1.10",
+        "gatsby-plugin-sharp": "^2.2.27",
+        "gatsby-plugin-typescript": "^2.1.11",
+        "gatsby-remark-abbr": "^1.0.0",
+        "gatsby-remark-copy-linked-files": "^2.1.23",
+        "gatsby-remark-images": "^3.1.25",
+        "gatsby-remark-smartypants": "^2.1.11",
+        "gatsby-remark-vscode": "^1.2.1",
+        "gatsby-source-filesystem": "^2.1.28",
+        "gatsby-transformer-remark": "^2.6.26",
+        "gatsby-transformer-sharp": "^2.2.19",
+        "gatsby-transformer-yaml": "^2.2.12",
+        "just-kebab-case": "^1.1.0",
+        "preact": "^10.0.0-rc.3",
+        "react": "^16.10.0",
+        "react-dom": "^16.10.0",
+        "react-helmet": "^5.2.1",
+        "rehype-react": "^4.0.1",
+        "typestyle": "^2.0.4"
+    },
+    "devDependencies": {
+        "@types/node": "^12.7.8",
+        "@types/react": "^16.9.3",
+        "@types/react-dom": "^16.9.1",
+        "@types/react-helmet": "^5.0.11",
+        "@types/rehype-react": "^3.1.0",
+        "fastget": "^1.0.2",
+        "rimraf": "^2.7.1",
+        "typescript": "^3.6.3"
+    },
+    "engines": {
+        "node": ">=12.0.0"
+    }
+}
